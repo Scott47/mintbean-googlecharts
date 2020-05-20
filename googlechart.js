@@ -13,17 +13,7 @@
 
 
 
-  // Create the data table.
-//   var data = new google.visualization.DataTable();
-//   data.addColumn('string', 'Topping');
-//   data.addColumn('number', 'Slices');
-//   data.addRows([
-//     ['Mushrooms', 3],
-//     ['Onions', 1],
-//     ['Olives', 1],
-//     ['Zucchini', 1],
-//     ['Pepperoni', 2]
-//   ]);
+
 function drawChart() {
     var container = document.getElementById('container');
     var chart = new google.visualization.Timeline(container);
@@ -42,6 +32,4 @@ function drawChart() {
     chart.draw(dataTable);
   }
 
-  // Instantiate and draw the chart.
-//   var chart = new google.visualization.PieChart(document.getElementById('myPieChart'));
-//   chart.draw(data, null);
+
