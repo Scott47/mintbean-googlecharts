@@ -21,7 +21,3 @@ function drawChart1() {
 
       chart.draw(data, options);
     }
-  // Instantiate and draw the chart.
-//   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-//   chart.draw(data, null);
-// }
