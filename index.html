@@ -6,15 +6,35 @@
     <title>Document</title>
 </head>
 <body>
+<!-- Identify where the chart should be drawn. -->
+<div id="myPieChart"/>
+<div class = "content">
+    <p>Hello! My name is Scott, I am a software developer. I graduated
+    Nashville Software School, a six month bootcamp where I worked on individual
+    and team projects in simulated mock Agile environment. I enjoyed it so much that
+    I continue to volunteer as a teaching assistant in their web application devlopment
+    jumpstart mini-bootcamp. I enjoy learning new things and learning to code feels like I
+    joined a community of learners and problem solvers. Building things, finding solutions,
+    making connections, and being part of team are some of the best parts. I like the intrinsic
+    satisfaction that comes with persevering through challenging problems. I like that applications
+    and services are built by a community of people, many using open source software and
+    interactions on forums, to serve a need or a want for a community of people.
+    I am currently working with Python, Django, Django REST Framework, SQLite, React,
+    JavaScript, HTML 5, CSS3. </p>
+
+    <p>Prior to software development, I taught middle school math, was a farm-to-school program
+        coordinator and wellness policy advocate for a non-profit urban farm, a public health
+        researcher and program coordinator. I have a background in anthropology and I have spent
+        over 12 years of my life, part and full-time, in the hospitality industry as a dishwasher,
+        cook, bartender, waiter, and manager.
+    </p>
+</div>
 
 
+<script src="googlechart.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script>google.charts.load('current', {packages: ['corechart']});
+        google.charts.setOnLoadCallback(drawChart)</script>
 
-
-
-    <script src="https://www.gstatic.com/charts/loader.js"></script>
-    <script>google.charts.load('current', {packages: ['corechart']});
-        google.charts.setOnLoadCallback(drawChart);
-    </script>
-        <script src="googlechart.js"></script>
 </body>
 </html>

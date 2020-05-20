@@ -1,3 +1,5 @@
+
+
 function drawChart() {
     // Define the chart to be drawn.
     var data = new google.visualization.DataTable();
@@ -13,9 +15,3 @@ function drawChart() {
     var chart = new google.visualization.PieChart(document.getElementById('myPieChart'));
     chart.draw(data, null);
   }
-</script>
-</head>
-<body>
-<!-- Identify where the chart should be drawn. -->
-<div id="myPieChart"/>
-</body>
